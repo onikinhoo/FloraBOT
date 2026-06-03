@@ -198,7 +198,7 @@ setTimeout(() => {
     try {
         await client.login(process.env.TOKEN);
         setTimeout(() => {
-         console.log(`\n\n\n${chalk.magenta(`🌸Flora🌸`)}\n` + chalk.bgCyanBright(`Ligada em ${client.user.tag} (ID: ${client.user.id}) \nDados:
+         console.log(`\n\n\n${chalk.magenta(`🌸Flora`)}\n` + chalk.bgCyanBright(`Ligada em ${client.user.tag} (ID: ${client.user.id}) \nDados:
    • Servidores: ${client.guilds.cache.size}
    • Usuários: ${client.users.cache.size}
    • Eventos: ${client.events.size}
